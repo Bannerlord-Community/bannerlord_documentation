@@ -123,7 +123,11 @@ mp\_skirmish\_map\_008\_skin = Port of Omar
 
 ### Team Deathmatch
 
-mp\_tdm\_map\_001 = mp\_tdm\_map\_001\_spring = mp\_tdm\_map\_003 =
+- mp\_tdm\_map\_001 = 
+
+- mp\_tdm\_map\_001\_spring = 
+
+- mp\_tdm\_map\_003 =
 Tsagaan Castle
 ![mp_tdm_map_003](https://user-images.githubusercontent.com/116319794/198414710-0e7165cd-8634-4c0c-ab86-a0e3a73fdec6.jpg)
 
