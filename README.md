@@ -14,7 +14,7 @@ Documentation for v.1.0.0.
 -   The game mode of Captain is called Sergeant in the game files.
 
 ## Bugs / Warnings
-- A list of current bugs / warnings with hosting a dedicated server can be found here: https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786/#post-9835187
+- A list of current bugs / warnings with hosting a dedicated server can be found [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786).
 
 ## Specs Required for Server Hosting
 
