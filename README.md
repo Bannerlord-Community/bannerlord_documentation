@@ -126,6 +126,7 @@ And copy and paste those files to the following path:
 'C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Dedicated Server\Modules\Native\MultiplayerForcedAvatars'
 
 
+## Maps 
 ### Skirmish
 
 mp\_skirmish\_map\_008\_skin = Port of Omar
