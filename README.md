@@ -116,6 +116,15 @@ Note that these modules are not the correct version, the DedicatedServerHelper n
 Update the XML to match that of the game's current version. 
 ![image](https://user-images.githubusercontent.com/116319794/198408245-3bafc121-c61d-4d64-99b2-4ec238ecab6d.png)
 
+## Unable to find MultiplayerForcedAvatars
+The solution to this issue is:
+
+To copy the MultiplayerForcedAvatars from your Mount & Blade II game directory, e.g.,:
+C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Native\MultiplayerForcedAvatars
+
+And copy and paste those files to the following path:
+'C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Dedicated Server\Modules\Native\MultiplayerForcedAvatars'
+
 
 ### Skirmish
 
