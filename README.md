@@ -1,6 +1,5 @@
 Documentation for v.1.0.0. 
 
-You can contact me directly on Discord (Das Pigeon #6262). 
 # Acknowledgements 
 - Mount & Blade Modding (Discord: https://discord.gg/92uJp7YD2u) 
 - Byako 
