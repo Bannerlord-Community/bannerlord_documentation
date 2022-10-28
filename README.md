@@ -101,6 +101,8 @@ Captain is called Sergeant in game files.
 -   mp\_sergeant\_map\_011\_rw = Isle of Deriad, not sure what
     difference is
 
+## Hosting Custom Maps 
+Will update soonish. 
 
 ## Updating DedicatedServerHelper 
 If there is an update to the game / DedicatedServerHelper you will need to manually update the XML of the DedicatedServerHelper module for your Dedicated Server. 
