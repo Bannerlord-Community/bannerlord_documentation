@@ -29,8 +29,6 @@ You can contact me directly on Discord (Das Pigeon #6262).
 -   you can load in new missions without restarting the server by
     entering new\_mission.
 -   Server will max out at around 300 bots.
--   I have not been successful in passing the token argument to the user
-    token parameter for launching a dedicated server.
 
 then waiting until process is cleared, then entering in the new
 mission.. note that this doesn’t apparently work to clear some
