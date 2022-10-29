@@ -30,3 +30,11 @@ names, a dictionary of the maps named in the backend of the files with their in-
 
 ## Debugging 
 Try seeing if there is a community solution listed [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786/). Otherwise, I'd strongly recommend asking in the bl-mp-servers channel on the M&B Modding [Discord](https://discord.gg/92uJp7YD2u). 
+
+# Hosting Provider
+
+https://mygameplatform.com/
+
+https://pingperfect.com/
+
+https://www.gtxgaming.co.uk/
