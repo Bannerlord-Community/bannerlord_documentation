@@ -28,3 +28,4 @@ The maps used for server hosting are not the same as their in-game
 names, a dictionary of the maps named in the backend of the files with their in-game names and also a screenshot of how they look is provided [here.](https://github.com/Bannerlord-Community/bannerlord_documentation/blob/main/map_dictionary.md)
 
 ## Debugging 
+Try seeing if there is a community solution listed [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786/). Otherwise, I'd strongly recommend asking in the bl-mp-servers channel on the M&B Modding [Discord](https://discord.gg/92uJp7YD2u). 
