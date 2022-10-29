@@ -1,3 +1,6 @@
+Direct matches of backend and front end map names can be found here: steamapps\common\Mount & Blade II Bannerlord\Modules\Native\ModuleData\native_strings
+
+
 ### Battle
 
 -   mp\_battle\_map\_001 = Cypegos Blockage
