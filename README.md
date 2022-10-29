@@ -1,4 +1,4 @@
-Documentation for v.1.0.0. 
+Documentation for v.1.0.0. Currently, mostly, a pastebin for my own notes. 
 
 # Acknowledgements 
 - Mount & Blade Modding (Discord: https://discord.gg/92uJp7YD2u) 
@@ -7,21 +7,24 @@ Documentation for v.1.0.0.
 
 # Hosting Bannerlord Dedicated Servers
 
-## Terminology
+## Hosting a Server on Linux 
+Community solution [here](https://forums.taleworlds.com/index.php?threads/guide-dedicated-server-on-linux.454799/).
+
+### Terminology
 
 -   Games are considered what is being hosted
 -   Each game has a mission which is defined as the gametype, etc..
 -   The game mode of Captain is called Sergeant in the game files.
 
-## Bugs / Warnings
+### Bugs / Warnings
 - A list of current bugs / warnings with hosting a dedicated server can be found [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786).
 
-## Specs Required for Server Hosting
+### Specs Required for Server Hosting
 
 -   Still not 100%, but I was using just over 1 GB memory RAM & capping
     at 20% of 32 GB cpu, 6.4GB with 400 bots
 
-## Other Tips / Tricks
+### Other Tips / Tricks
 
 -   Default warmup for battle is 5 minutes, possibly extends to other
     game modes.
@@ -41,7 +44,7 @@ Apparently duel works with battle (to a certain extent?)
 Duel can’t be preset with a map (will error out, needs to be added to a
 queue).
 
-## Configuration Structure
+### Configuration Structure
 
 -   ServerName String *this is the name of the server, which will be
     displayed in the server lobby*
@@ -60,7 +63,7 @@ queue).
     mission.* There are bugs associated with this, check the Bugs
     section.
 
-## Maps
+### Maps
 
 The maps used for server hosting are not the same as their in-game
 names, the following is a dictionary of the maps used for hosting with
@@ -98,10 +101,10 @@ Captain is called Sergeant in game files.
 -   mp\_sergeant\_map\_011\_rw = Isle of Deriad, not sure what
     difference is
 
-## Hosting Custom Maps 
+#### Hosting Custom Maps 
 Will update soonish. 
 
-## Updating DedicatedServerHelper 
+#### Updating DedicatedServerHelper 
 If there is an update to the game / DedicatedServerHelper you will need to manually update the XML of the DedicatedServerHelper module for your Dedicated Server. 
 
 You can do this by going to the following directory: 
@@ -116,7 +119,7 @@ Note that these modules are not the correct version, the DedicatedServerHelper n
 Update the XML to match that of the game's current version. 
 ![image](https://user-images.githubusercontent.com/116319794/198408245-3bafc121-c61d-4d64-99b2-4ec238ecab6d.png)
 
-## Unable to find MultiplayerForcedAvatars
+#### Unable to find MultiplayerForcedAvatars
 The solution to this issue is:
 
 To copy the MultiplayerForcedAvatars from your Mount & Blade II game directory, e.g.,:
@@ -126,12 +129,12 @@ And copy and paste those files to the following path:
 'C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Dedicated Server\Modules\Native\MultiplayerForcedAvatars'
 
 
-## Maps 
-### Skirmish
+### Maps 
+#### Skirmish
 
 mp\_skirmish\_map\_008\_skin = Port of Omar
 
-### Team Deathmatch
+#### Team Deathmatch
 
 - mp\_tdm\_map\_001 = 
 
