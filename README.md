@@ -7,17 +7,41 @@ Documentation for v.1.0.0. Currently, mostly, a pastebin for my own notes as the
 
 # Hosting Bannerlord Dedicated Servers
 
+## Hosting a Server on Windows 
+I'd strongly recommend following the guide created by That Horns Guy [here](https://youtu.be/9Hvuz12Bfzg), especially if this is your first time hosting a server. 
+
 ## Hosting a Server on Linux 
-Community solution [here](https://forums.taleworlds.com/index.php?threads/guide-dedicated-server-on-linux.454799/).
+TW has not provided support for Dedicated Server hosting on Linux OS, however there is a community solution [here](https://forums.taleworlds.com/index.php?threads/guide-dedicated-server-on-linux.454799/).
+
+## Bugs / Warnings
+- A list of current bugs / warnings with hosting a dedicated server can be found [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786).
+
+## Server Configurations
+-   ServerName String *this is the name of the server, which will be
+    displayed in the server lobby*
+-   GamePassword String *optional: password lock your server, put in a
+    password here*
+-   GameType String *this is the type of game type, e.g., Duel, Battle,
+    Captain..*
+-   Map String *this is the map you will play, take a look at*
+    ***Maps*** *to find the dictionary for the specific map file name*
+-   NumberOfBotsTeam1 Integer *this sets the number of bots on Team 1,
+    this is immediate for TDM.*
+-   NumberOfBotsTeam1 Integer *this sets the number of bots on Team 2,
+    this is immediate for TDM.*
+-   UnlimitedGold Boolean (True/False) *this sets whether gold is
+    unlimited or not. Appears to work immediately for TDM without ending
+    mission.* There are bugs associated with this, check the Bugs
+    section.
+
+
+
 
 ### Terminology
 
 -   Games are considered what is being hosted
 -   Each game has a mission which is defined as the gametype, etc..
 -   The game mode of Captain is called Sergeant in the game files.
-
-### Bugs / Warnings
-- A list of current bugs / warnings with hosting a dedicated server can be found [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786).
 
 ### Specs Required for Server Hosting
 
@@ -44,24 +68,7 @@ Apparently duel works with battle (to a certain extent?)
 Duel can’t be preset with a map (will error out, needs to be added to a
 queue).
 
-### Configuration Structure
 
--   ServerName String *this is the name of the server, which will be
-    displayed in the server lobby*
--   GamePassword String *optional: password lock your server, put in a
-    password here*
--   GameType String *this is the type of game type, e.g., Duel, Battle,
-    Captain..*
--   Map String *this is the map you will play, take a look at*
-    ***Maps*** *to find the dictionary for the specific map file name*
--   NumberOfBotsTeam1 Integer *this sets the number of bots on Team 1,
-    this is immediate for TDM.*
--   NumberOfBotsTeam1 Integer *this sets the number of bots on Team 2,
-    this is immediate for TDM.*
--   UnlimitedGold Boolean (True/False) *this sets whether gold is
-    unlimited or not. Appears to work immediately for TDM without ending
-    mission.* There are bugs associated with this, check the Bugs
-    section.
 
 ### Maps
 
@@ -150,7 +157,9 @@ mp\_duel\_001 = Imperial Villa, does not work as a duel map (cannot
 accept duels).
 
 ## GameTypes
-
 -   Duel
 -   FreeForAll, this game mode doesn’t work.
 -   Sergeant
+-   Battle 
+-   Skirmish 
+-   TeamDeathmatch
