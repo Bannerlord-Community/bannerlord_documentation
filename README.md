@@ -4,6 +4,7 @@ Documentation for v.1.0.0. Currently, mostly, a pastebin for my own notes as the
 - Mount & Blade Modding (Discord: https://discord.gg/92uJp7YD2u) 
 - Byako 
 - Muz 
+- Le Profyteur 
 
 # Hosting Bannerlord Dedicated Servers
 
