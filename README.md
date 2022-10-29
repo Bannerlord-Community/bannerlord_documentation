@@ -1,4 +1,4 @@
-Documentation for v.1.0.0. Currently, mostly, a pastebin for my own notes. 
+Documentation for v.1.0.0. Currently, mostly, a pastebin for my own notes as the TW documentation is not comprehensive enough. 
 
 # Acknowledgements 
 - Mount & Blade Modding (Discord: https://discord.gg/92uJp7YD2u) 
