@@ -46,5 +46,11 @@ Tsagaan Castle
 
 ### Duel
 
-mp\_duel\_001 = Imperial Villa, does not work as a duel map (cannot
+- mp\_duel\_001 = Imperial Villa, does not work as a duel map (cannot
 accept duels).
+
+- mp_duel_mode_map_004 = Proving Grounds
+
+- mp_duel_mode_map_004_w = Proving Grounds
+
+- mp_duel_mode_map_004_night = Proving Grounds (Night) 
