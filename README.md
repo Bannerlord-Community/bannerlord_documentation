@@ -13,6 +13,9 @@ I'd strongly recommend following the guide created by That Horns Guy [here](http
 ## Hosting a Server on Linux 
 TW has not provided support for Dedicated Server hosting on Linux OS, however there is a community solution [here](https://forums.taleworlds.com/index.php?threads/guide-dedicated-server-on-linux.454799/).
 
+## Hosting Custom Maps
+Will update this section soonish. 
+
 ## Bugs / Warnings
 - A list of current bugs / warnings with hosting a dedicated server can be found [here](https://forums.taleworlds.com/index.php?threads/hosting-a-dedicated-server-back-end-problems.454786).
 
@@ -24,7 +27,7 @@ TW has not provided support for Dedicated Server hosting on Linux OS, however th
 The maps used for server hosting are not the same as their in-game
 names, a dictionary of the maps named in the backend of the files with their in-game names and also a screenshot of how they look is provided [here.](https://github.com/Bannerlord-Community/bannerlord_documentation/blob/main/map_dictionary.md)
 
-
+## Debugging 
 
 ### Terminology
 
@@ -90,24 +93,7 @@ And copy and paste those files to the following path:
 
 
 ### Maps 
-#### Skirmish
 
-mp\_skirmish\_map\_008\_skin = Port of Omar
-
-#### Team Deathmatch
-
-- mp\_tdm\_map\_001 = 
-
-- mp\_tdm\_map\_001\_spring = 
-
-- mp\_tdm\_map\_003 =
-Tsagaan Castle
-![mp_tdm_map_003](https://user-images.githubusercontent.com/116319794/198414710-0e7165cd-8634-4c0c-ab86-a0e3a73fdec6.jpg)
-
-### Duel
-
-mp\_duel\_001 = Imperial Villa, does not work as a duel map (cannot
-accept duels).
 
 ## GameTypes
 -   Duel
