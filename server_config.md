@@ -24,7 +24,7 @@
 -   RoundTotal Integer *believe this is the number of missions that will be played before the game ends.* 
 -   MapTimeLimit Integer *number of minutes your mission will last for on the map before ending (if score limit isn't reached)* 
 -   RoundTimeLimit 
--   WarmupTimeLimit Integer *amount of time before the mission starts* 
+-   WarmupTimeLimit Integer *Minutes: amount of time before the mission starts* 
 -   SingleSpawn Boolean (True/False) not really sure what this is 
 -   NumberOfBotsTeam1 Integer *this sets the number of bots on Team 1,
     this is immediate for TDM.*
