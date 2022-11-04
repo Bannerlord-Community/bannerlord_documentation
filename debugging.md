@@ -1,5 +1,5 @@
 #### Updating DedicatedServerHelper 
-If there is an update to the game / DedicatedServerHelper you will need to manually update the XML of the DedicatedServerHelper module for your Dedicated Server. 
+If there is an update to the game / DedicatedServerHelper you will need to manually update the XML of the DedicatedServerHelper module for your Dedicated Server, as this isn't automatically updated. 
 
 You can do this by going to the following directory: 
 C:\Program Files (x86)\Steam\steamapps\common\Mount & Blade II Dedicated Server\Modules\DedicatedCustomServerHelper\SubModule.xml 
