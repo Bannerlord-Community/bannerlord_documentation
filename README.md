@@ -33,7 +33,7 @@ Try seeing if there is a solution in the documentation [here](https://github.com
 
 # Hosting Provider
 
-https://mygameplatform.com/
+https://mygameplatform.com/      [Free server community]
 
 https://pingperfect.com/
 
